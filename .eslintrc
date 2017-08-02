@@ -1,0 +1,15 @@
+{
+  parser: "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "max-len": [1, 120, 2, {ignoreComments: true}],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+  },
+  "globals": {
+    "document": false
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
